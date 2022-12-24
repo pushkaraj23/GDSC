@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Public Sans', sans-serif;
 }
 
 p {
@@ -27,7 +28,6 @@ nav {
     background-color: #F5F5F5;
     height: 5vw;
     width: 100%;
-    font-family: 'Public Sans', sans-serif;
     box-shadow: 2px 0 5px 2px #5F6368;
     position: fixed;
     top: 0;
@@ -69,15 +69,14 @@ nav .gdsc-logo {
 
 .title {
     width: 45%;
-    font-family: 'Public Sans';
     font-style: normal;
     font-weight: 700;
-    padding-left: 8vw;
+    padding-left: 6vw;
 }
 
 .title h1 {
     font-size: 5vw;
-    margin: 0 0 0.3em 0;
+    margin: 0;
 }
 
 .title p {
@@ -142,4 +141,83 @@ nav .gdsc-logo {
 
 .purple-logo img {
     width: 11vw;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #F4F4F4;
+    height: 95vh;
+}
+
+.heading {
+    margin: 2em 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    color: #F5F5F5;
+}
+
+.blue {
+    width: 25vw;
+    height: 28vw;
+    background: radial-gradient(84.75% 84.75% at 100% 0%, #4285F4 19.77%, #A6C7FF 100%);
+    border: 3px solid #8EB7FC;
+    box-shadow: 0px 19px 74px -7px #89B4FC;
+    border-radius: 5vw;
+}
+
+.green {
+    width: 25vw;
+    height: 28vw;
+    background: radial-gradient(84.75% 84.75% at 100% 0%, #0F9D57 0%, #83DAAF 100%);
+    border: 3px solid #92D198;
+    box-shadow: 0px 19px 74px -7px #71D0A1;
+    border-radius: 5vw;
+}
+
+.red {
+    width: 25vw;
+    height: 28vw;
+    background: radial-gradient(84.75% 84.75% at 100% 0%, #EA4335 0%, #F6BFBB 100%);
+    border: 3px solid #F4ABA5;
+    box-shadow: 0px 19px 74px -7px #F5B5AF;
+    border-radius: 5vw;
+}
+
+.about-us p:nth-child(1) {
+    font-weight: 900;
+    font-size: 2vw;
+    margin: 5vw 0 0 15%;
+}
+
+.about-us p:nth-child(2) {
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    width: 70%;
+    margin: 2vw 0 0 15%;
+}
+
+.excited-about {
+    background-color: #F4F4F4;
+    margin: 0;
+    text-align: center;
+}
+
+.excited-about p {
+    font-size: 1.8vw;
+    color: #5C5C5C;
+}
+
+#second-heading {
+    margin: 0 0 0.5em 0;
 }
