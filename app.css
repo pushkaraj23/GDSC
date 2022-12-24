@@ -31,6 +31,7 @@ nav {
     box-shadow: 2px 0 5px 2px #5F6368;
     position: fixed;
     top: 0;
+    z-index: 4;
 }
 
 .nav-first {
@@ -57,6 +58,7 @@ nav .gdsc-logo {
 }
 
 .home {
+    margin-top: 3vw;
     height: 100vh;
     width: 100%;
     background: radial-gradient(100% 384.89% at 100% 0%, white 13.57%, #D3D6D8 63.05%);
@@ -66,7 +68,7 @@ nav .gdsc-logo {
 }
 
 .title {
-    width: 50%;
+    width: 45%;
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 700;
@@ -85,20 +87,26 @@ nav .gdsc-logo {
 }
 
 .logo {
-    width: 50%;
+    width: 52%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .logo-bg {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
-    height: 30vw;
+    width: 35vw;
+    height: 35vw;
     background-color: #F5F5F5;
     border-radius: 50%;
     background: linear-gradient(white, white) padding-box,
         linear-gradient(to right, #F4F4F4, #D3D6D8) border-box;
     border: 0.6vw solid transparent;
+    margin-left: 2em;
+    z-index: 2;
 }
 
 .logo-bg img {
@@ -106,9 +114,32 @@ nav .gdsc-logo {
 }
 
 .purple-logo {
-    width: 15vw;
-    height: 15vw;
+    width: 13.5vw;
+    height: 13.5vw;
     border-radius: 50%;
-    background-color: purple;
-    transform: translate(30vw, 0);
+    background: linear-gradient(65.31deg, #5A458A 19.07%, rgba(166, 127, 255, 0.43) 84.83%);
+    border: 1px solid #C79AFF;
+    box-shadow: 6px 16px 23px 6px rgba(142, 109, 219, 0.27);
+    position: absolute;
+    transform: translate(29vw, -10.5vw);
+    z-index: 1;
+}
+
+.mit-logo {
+    width: 13.5vw;
+    height: 13.5vw;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(30.2vw, -9.2vw);
+    z-index: 3;
+}
+
+.mit-logo img {
+    border-radius: 50%;
+    width: 11vw;
+    box-shadow: 6px 16px 23px 6px rgba(142, 109, 219, 0.27);
+}
+
+.purple-logo img {
+    width: 11vw;
 }
