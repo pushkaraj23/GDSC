@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5F6368;
+    transition: 0.4s;
+}
+
+a:hover {
+    transform: translateY(-1.5px);
+    text-shadow: 2px 2px 3px #5F6368;
+}
+
+nav {
+    color: #5F6368;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 5vw;
+    width: 100%;
+    font-family: 'Public Sans', sans-serif;
+    box-shadow: 2px 0 5px 2px #5F6368;
+    position: fixed;
+    top: 0;
+}
+
+.nav-first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+
+.nav-second {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2vw;
+}
+
+nav .gdsc-logo {
+    padding: 1em;
+    padding-left: 2em;
+    height: 2.3vw;
+    width: auto;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(100% 384.89% at 100% 0%, white 13.57%, #D3D6D8 63.05%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    width: 50%;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 8vw;
+}
+
+.title h1 {
+    font-size: 5vw;
+    margin: 0 0 0.3em 0;
+}
+
+.title p {
+    margin: 1em 0 0 0.3em;
+    font-size: 1.5vw;
+
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vw;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #F4F4F4, #D3D6D8) border-box;
+    border: 0.6vw solid transparent;
+}
+
+.logo-bg img {
+    width: 90%;
+}
+
+.purple-logo {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: purple;
+    transform: translate(30vw, 0);
+}
