@@ -388,7 +388,7 @@ i {
     border-radius: 50%;
 }
 
-.theteam h2 {
+.card h2 {
     margin: 9vw 0 0.5vw 0;
     font-size: 2vw;
 }
@@ -407,9 +407,55 @@ i {
     color: gray;
     font-size: 1.7vw;
     margin-top: 0.7vw;
-    transition: 0.2s;
+    transition: 0.25s;
 }
 
 .icon:hover {
-    font-size: 1.8vw;
+    transform: translateY(2px);
+}
+
+.sub-heading {
+    color: #5C5C5C;
+    font-weight: 500;
+    margin-top: 0;
+    font-size: 2vw;
+}
+
+.mg-bt-0 {
+    margin-bottom: 2vw;
+}
+
+#red {
+    background: radial-gradient(100% 572.9% at 86.88% 0%, #EB5043 0%, #F39E97 100%);
+}
+
+.team-icons {
+    margin: 7vw 0;
+    height: 14vw;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    height: 14vw;
+    text-align: center;
+}
+
+.icons img {
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 1.5vw;
+    box-shadow: 0px 5px 15px 5px lightgrey;
+    transition: 0.25s;
+}
+
+.icons img:hover {
+    scale: 1.2;
 }
