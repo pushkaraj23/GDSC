@@ -4,6 +4,21 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 2px;
+    background-clip: content-box;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #4D4847;
+    border-radius: 5px;
+}
+
 p {
     margin: 0;
 }
@@ -11,10 +26,10 @@ p {
 nav a {
     text-decoration: none;
     color: #5F6368;
-    transition: 0.4s;
+    transition: 0.25s;
 }
 
-a:hover {
+nav a:hover {
     transform: translateY(-1.5px);
     text-shadow: 2px 2px 3px #5F6368;
 }
@@ -38,7 +53,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.5vw;
 }
 
@@ -174,6 +189,7 @@ nav .gdsc-logo {
     border: 3px solid #8EB7FC;
     box-shadow: 0px 19px 74px -7px #89B4FC;
     border-radius: 5vw;
+    transition: 0.2s;
 }
 
 .green {
@@ -183,6 +199,7 @@ nav .gdsc-logo {
     border: 3px solid #92D198;
     box-shadow: 0px 19px 74px -7px #71D0A1;
     border-radius: 5vw;
+    transition: 0.2s;
 }
 
 .red {
@@ -192,12 +209,28 @@ nav .gdsc-logo {
     border: 3px solid #F4ABA5;
     box-shadow: 0px 19px 74px -7px #F5B5AF;
     border-radius: 5vw;
+    transition: 0.2s;
+}
+
+.sticker-ct {
+    z-index: 1;
+    transition: 0.2s;
+}
+
+.sticker {
+    height: 13vw;
+    width: auto;
+    margin: 1.5vw;
+    position: absolute;
+    transform: translate(9vw, -22vw);
 }
 
 .about-us p:nth-child(1) {
     font-weight: 900;
     font-size: 2vw;
     margin: 5vw 0 0 15%;
+    position: relative;
+    z-index: 2;
 }
 
 .about-us p:nth-child(2) {
@@ -205,12 +238,20 @@ nav .gdsc-logo {
     margin-top: 1vw;
     width: 70%;
     margin: 2vw 0 0 15%;
+    position: relative;
+    z-index: 2;
+}
+
+.about-us div:hover {
+    scale: 1.05;
 }
 
 .excited-about {
-    background-color: #F4F4F4;
+    background-color: #F5F5F5;
     margin: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .excited-about p {
@@ -219,5 +260,156 @@ nav .gdsc-logo {
 }
 
 #second-heading {
-    margin: 0 0 0.5em 0;
+    margin: 3em 0 0.5em 0;
+}
+
+#sub-heading {
+    margin-bottom: 4em;
+}
+
+.tech {
+    width: 100%;
+    height: 55vh;
+    background-color: #F5F5F5;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#cloud {
+    padding-left: 4vw;
+}
+
+.image {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 20vw;
+    margin-left: 3vw;
+}
+
+.info {
+    text-align: left;
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 6vw;
+}
+
+.info p:nth-child(1) {
+    width: 35vw;
+    font-size: 2.5vw;
+    color: #555555;
+}
+
+.info p:nth-child(2) {
+    width: 35vw;
+    font-size: 1.5vw;
+    font-weight: 200;
+    margin: 2.5vw 0;
+}
+
+.rev {
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
+
+.btn {
+    background: radial-gradient(84.75% 84.75% at 100% 0%, #95b9f8 19.77%, #669cf3 100%);
+    box-shadow: 0px 19px 74px -7px #89B4FC;
+    border: none;
+    border-radius: 8px;
+    font-size: 1vw;
+    color: #F5F5F5;
+    padding: 0.8vw 1.2vw;
+    box-shadow: 2px 3px 10px #89B4FC;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+i {
+    color: #F5F5F5;
+    padding-left: 0.8vw;
+}
+
+.btn:hover {
+    transform: translateY(-1.5px);
+}
+
+.theteam {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 22vw;
+    height: 32vw;
+    border-radius: 2vw;
+    background-color: white;
+}
+
+.rect {
+    position: static;
+    width: 22vw;
+    height: 10.6vw;
+    background: radial-gradient(100% 572.9% at 86.88% 0%, #2F5BE7 0%, #B3C8FF 100%);
+    border-radius: 2vw 2vw 0 0;
+}
+
+.photo {
+    position: absolute;
+    width: 13.75vw;
+    height: 13.75vw;
+    border-radius: 50%;
+    border: 9px solid #D9D9D9;
+    box-shadow: 0px 11px 19px rgba(0, 0, 0, 0.25);
+    transform: translateY(3vw);
+}
+
+.photo img {
+    width: 13.75vw;
+    height: 13.75vw;
+    border-radius: 50%;
+}
+
+.theteam h2 {
+    margin: 9vw 0 0.5vw 0;
+    font-size: 2vw;
+}
+
+.theteam p {
+    margin-top: 0;
+    width: 18vw;
+    font-size: 1vw;
+}
+
+.card p:nth-child(4) {
+    margin-bottom: 0.5vw;
+}
+
+.icon {
+    color: gray;
+    font-size: 1.7vw;
+    margin-top: 0.7vw;
+    transition: 0.2s;
+}
+
+.icon:hover {
+    font-size: 1.8vw;
 }
