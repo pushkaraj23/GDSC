@@ -347,11 +347,6 @@ nav .gdsc-logo {
     margin: 2.5vw 0;
 }
 
-.rev {
-    flex-wrap: wrap-reverse;
-    align-items: flex-start;
-}
-
 .btn {
     background: radial-gradient(84.75% 84.75% at 100% 0%, #95b9f8 19.77%, #669cf3 100%);
     box-shadow: 0px 19px 74px -7px #89B4FC;
@@ -716,6 +711,10 @@ footer {
         scale: 2;
         top: 5vw;
         right: 7vw;
+        height: 2.5vw;
+    }
+    .toggle-button .icon {
+        color: #303030;
     }
     .nav-first {
         font-size: 3.5vw;
@@ -749,13 +748,39 @@ footer {
     .home .title,.logo {
         padding: 0;
         margin: 0;
-        /* scale: 2; */
+    }
+    .title {
+        width: 100%;
+    }
+    .title h1 {
+        font-size: 10vw;
+    }
+    .title p {
+        font-size: 4vw;
+    }
+    .logo {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-bg {
+        width: 70vw;
+        height: 70vw;
+        margin: 0;
     }
     .purple-logo {
-        transform: translate(31vw, -12.5vw);
+        transform: translate(31vw, -20.5vw);
+        width: 27vw;
+        height: 27vw;
     }
     .mit-logo {
-        transform: translate(31.2vw, -11.2vw);
+        transform: translate(31.2vw, -18.2vw);
+        width: 27vw;
+        height: 27vw;
+    }
+
+    .mit-logo img {
+        width: 22vw;
     }
 
     .intro {
@@ -769,13 +794,57 @@ footer {
     }
     .heading {
         margin: 0;
-        /* scale: 2; */
+        font-size: 7vw;
     }
     .blue, .green, .red {
-        /* scale: 2.5; */
+        scale: 2.5;
     }
     .about-us div:hover {
-        /* scale: 2.6; */
+        scale: 2.6;
+    }
+    .excited-about p {
+        font-size: 3.6vw;
+    }
+    .tech {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 60vh;
+    }
+    .image {
+        width: 100%;
+        height: fit-content;
+    }
+    .image img {
+        width: 40%;
+        margin: 0;
+    }
+    .info {
+        text-align: center;
+        width: 70%;
+        height: 80vw;
+        margin: 0;
+        align-items: center;
+    }
+    .info p:nth-child(1) {
+        width: 70vw;
+        font-size: 7vw;
+    }
+    .info p:nth-child(2) {
+        width: 70vw;
+        font-size: 3.5vw;
+        margin: 5vw 0;
+    }
+    #rev {
+        flex-direction: column-reverse;
+    }
+    #rev img {
+        padding-left: 6vw;
+    }
+    .btn {
+        margin-top: 4vw;
+        scale: 4;
     }
 }
 
