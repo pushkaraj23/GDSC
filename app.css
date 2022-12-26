@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -30,8 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    transform: translateY(-1.5px);
-    text-shadow: 2px 2px 3px #5F6368;
+    transform: translateY(-1px);
 }
 
 nav {
@@ -47,6 +50,28 @@ nav {
     position: fixed;
     top: 0;
     z-index: 4;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.8vw;
+    right: 4vw;
+    display: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.toggle-button:hover {
+    border: 1px solid #4D4847;
+}
+
+.toggle-button .icon:hover {
+    transform: translateY(0);
+}
+
+.toggle-button .icon{
+    margin: 0;
+    padding: 0;
 }
 
 .nav-first {
@@ -72,8 +97,13 @@ nav .gdsc-logo {
     width: auto;
 }
 
+.dummy {
+    margin: 5vw;
+    width: 5vw;
+}
+
 .home {
-    margin-top: 3vw;
+    margin-top: 0;
     height: 100vh;
     width: 100%;
     background: radial-gradient(100% 384.89% at 100% 0%, white 13.57%, #D3D6D8 63.05%);
@@ -667,3 +697,85 @@ footer {
 .footer-second .icon {
     color: #303030;
 }
+
+.open-close {
+    display: none;
+}
+
+@media (max-width : 600px) {
+    .nav-second {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-bottom: 1.5vw;
+    }
+    .toggle-button {
+        display: flex;
+        scale: 2;
+        top: 5vw;
+        right: 7vw;
+    }
+    .nav-first {
+        font-size: 3.5vw;
+        margin-top: 0;
+    }
+    nav {
+        height: fit-content;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav .gdsc-logo {
+        height: 4.6vw;
+        width: auto;
+    }
+    nav a {
+        width: 100%;
+        font-size: 3vw;
+        padding: 2vw;
+    }
+    nav a:hover {
+        transform: translateY(-1px);
+        color: white;
+        background-color: lightgray;
+    }
+    .home {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .home .title,.logo {
+        padding: 0;
+        margin: 0;
+        /* scale: 2; */
+    }
+    .purple-logo {
+        transform: translate(31vw, -12.5vw);
+    }
+    .mit-logo {
+        transform: translate(31.2vw, -11.2vw);
+    }
+
+    .intro {
+        justify-content: space-evenly;
+        height: 150vh;
+    }
+    .about-us {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 80%;
+    }
+    .heading {
+        margin: 0;
+        /* scale: 2; */
+    }
+    .blue, .green, .red {
+        /* scale: 2.5; */
+    }
+    .about-us div:hover {
+        /* scale: 2.6; */
+    }
+}
+
