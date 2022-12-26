@@ -847,45 +847,64 @@ footer {
         scale: 4;
     }
     .card {
-        width: 44vw;
-        height: 64vw;
-        border-radius: 4vw;
+        width: 74.8vw;
+        height: 108.8vw;
+        border-radius: 6.8vw;
         margin-top: 8vw;
     }
     .rect {
-        width: 44vw;
-        height: 21.2vw;
-        border-radius: 4vw 4vw 0 0;
+        width: 74.8vw;
+        height: 36.05vw;
+        border-radius: 6.8vw 6.8vw 0 0;
     }
     .photo {
-        width: 26vw;
-        height: 26vw;
+        width: 44.2vw;
+        height: 44.2vw;
         border: 6px solid #D9D9D9;
         transform: tranlateY(6vw);
     }
     .photo img {
-        width: 26vw;
-        height: 26vw;
+        width: 44.2vw;
+        height: 44.2vw;
     }
     .card h2 {
-        font-size: 4vw;
-        margin-top: 14vw;
+        font-size: 6.8vw;
+        margin-top: 23.8vw;
     }
     .theteam p {
-        font-size: 2.2vw;
-        width: 34vw;
+        font-size: 3.74vw;
+        width: 40vw;
     }
     .card p:nth-child(4) {
-        margin-bottom: 1vw;
+        margin-bottom: 1.7vw;
     }
-    .icon {
-        font-size: 4vw;
-        margin-top: 2vw;
+    .card .icon {
+        font-size: 6vw;
+        padding: 0 1vw;
+        margin-top: 3.5vw;
     }
     .sub-heading {
         margin: 2vw 0 10vw 0;
         text-align: center;
         font-size: 4vw;
         width: 70vw;
+    }
+    .team-icons {
+        margin-top: 15vw;
+        height: fit-content;
+        flex-wrap: wrap;
+        width: 70vw;
+        justify-content: center;
+    }
+    .icons {
+        width: 23vw;
+        justify-content: flex-start;
+    }
+    #teamname {
+        font-size: 2vw;
+    }
+    .icons img {
+        width: 10vw;
+        height: 10vw;
     }
 }
