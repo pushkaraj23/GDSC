@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GDSC</title>
+    <title>GDSC | MIT ADT</title>
+    <link rel="icon" href="Photos/Logos/gdsc-title.jpg" type="image/icon type">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;400;500;700&display=swap"
@@ -23,8 +24,8 @@
             <img src="Photos/Logos/GDSC LOGO.png" alt="gdsc_logo" class="gdsc-logo">
             <p>GDSC MIT ADT</p>
         </div>
-        <button class="toggle-button" onclick="showHide()" id="toggle-button"><i class="fa-solid fa-bars icon"></i></button>
-        <!-- <div class="toggle-button"><i class="fa-regular fa-xmark icon"></i></div> -->
+        <button class="toggle-button" onclick="showHide()" id="toggle-button"><i
+                class="fa-solid fa-bars icon"></i></button>
         <div class="nav-second" id="nav-second">
             <a href="#about-us">About Us</a>
             <a href="#technologies">Technologies</a>
@@ -162,707 +163,824 @@
 
         <!-- team icons -->
         <div class="team-icons">
-            <div class="icons">
+            <button class="icons" onclick="showMembers(1)">
                 <img src="Photos/Logos/tech.png" alt="tech">
                 <p id="teamname">Technical Team</p>
-            </div>
-            <div class="icons">
+            </button>
+            <button class="icons" onclick="showMembers(2)">
                 <img src="Photos/Logos/manage.png" alt="manage">
                 <p id="teamname">Management Team</p>
-            </div>
-            <div class="icons">
+            </button>
+            <button class="icons" onclick="showMembers(3)">
                 <img src="Photos/Logos/content.png" alt="content">
                 <p id="teamname">Content Team</p>
-            </div>
-            <div class="icons">
+            </button>
+            <button class="icons" onclick="showMembers(4)">
                 <img src="Photos/Logos/social.png" alt="social">
                 <p id="teamname">Social Media
                     & Outreach Team</p>
-            </div>
-            <div class="icons">
+            </button>
+            <button class="icons" onclick="showMembers(5)">
                 <img src="Photos/Logos/design.png" alt="design">
                 <p id="teamname">Design Team</p>
-            </div>
+            </button>
         </div>
 
         <div class="team-module">
 
             <!-- Technical Team -->
-            <h1 class="heading">Technical Team</h1>
-            <div class="module">
+            <div id="one">
 
-                <!-- Shashwat Sharma -->
-                <div class="head">
-                    <div class="module-first">
-                        <img src="Photos/Team/Core/shashwat_sharma.jpg" alt="Shashwat">
-                        <h2 class="name">Shashwat</h2>
-                        <h2 class="name">Sharma</h2>
-                        <p>TECH LEAD</p>
-                    </div>
+                <h1 class="heading">Technical Team</h1>
+                <div class="module">
+                    <!-- Shashwat Sharma -->
+                    <div class="head">
+                        <div class="module-first">
+                            <img src="Photos/Team/Core/shashwat_sharma.jpg" alt="Shashwat">
+                            <h2 class="name">Shashwat</h2>
+                            <h2 class="name">Sharma</h2>
+                            <p>TECH LEAD</p>
+                        </div>
 
-                    <div class="module-second">
-                        <h2></h2>
-                        <div class="para">Highly skilled and motivated Software Engineer with experience in a
-                            variety of technologies and tools, including AWS, NodeJS, MySQL, Flutter, MongoDB, and
-                            Firebase.</div>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/shashwatsharma2910/" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/shashwat2910" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="https://www.instagram.com/oreo_sharma_/" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
+                        <div class="module-second">
+                            <h2></h2>
+                            <div class="para">Highly skilled and motivated Software Engineer with experience in a
+                                variety of technologies and tools, including AWS, NodeJS, MySQL, Flutter, MongoDB, and
+                                Firebase.</div>
+                            <div class="links">
+                                <a href="https://www.linkedin.com/in/shashwatsharma2910/" target="_blank"
+                                    rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                <a href="https://github.com/shashwat2910" target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-github icon"></i></a>
+                                <a href="https://www.instagram.com/oreo_sharma_/" target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-instagram icon"></i></a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="scroll">
+                        <div class="blur hide"></div>
+                        <div class="scrollable">
+
+                            <!-- yash bansal -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/bansal.jpg" alt=""></div>
+                                <h2>Yash Bansal</h2>
+                                <p class="para">Solves problem in creative ways while applying classical strategies to
+                                    modern-day projects.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/yashbansal1437/" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/yashbansal1437" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- harsh -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/harsh.jpg" alt=""></div>
+                                <h2>Harshwardhan Mehrotra</h2>
+                                <p class="para">I’ve looked at clouds from both sides now, from up and down, and still
+                                    somehow…
+                                    it’s cloud illusions I recall… I really don’t know clouds at all.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/harshwardhan-mehrotra" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/harsh18262" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- abhishek -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/rasal.jpg" alt=""></div>
+                                <h2>Abhishek Rasal</h2>
+                                <p class="para">A budding Computer Science Engineer, learning new skills and has
+                                    hands-on
+                                    experience in various programming languages. Acutely dedicated to my work and
+                                    fascinated
+                                    by
+                                    technology in general. </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/abhishekrasal" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/thehackerpanda" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- monil -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/monil.jpg" alt=""></div>
+                                <h2>Monil Karia</h2>
+                                <p class="para">Just Curious about everything .!</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/monil-karia-393595210/" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/Monil-Karia" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- mrunal -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/mrunal.jpg" alt=""></div>
+                                <h2>Mrunal Pataskar</h2>
+                                <p class="para">Busy in exploring and taking myself to the cloud nine!</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/mrunal-pataskar-43856517b" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/mrunalpataskar" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- vaibhav -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/vaibhav.jpg" alt=""></div>
+                                <h2>Vaibhav Ramrakhyani</h2>
+                                <p class="para">AI enthusiast with a love for learning, music, and an insatiable
+                                    curiosity</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/vaibhav-ramrakhyani-088004200" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/VaibhavRamrakhyani" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- yash singh -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/yashSingh.jpg" alt=""></div>
+                                <h2>Yash Singh</h2>
+                                <p class="para">Exploring life with a semicolon </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/yash-singh-409356222" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/Yash5ingh" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Pushkaraj -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/pushkar.jpg" alt=""></div>
+                                <h2>Pushkaraj Suryawanshi </h2>
+                                <p class="para">Innovative, Solution Seeker and a little bit of everything ;)</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/pushkaraj-suryawanshi-604bba228/"
+                                        target="_blank" rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/pushkaraj23" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Shazia -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/shazia.jpg" alt=""></div>
+                                <h2>Shazia Khan</h2>
+                                <p class="para">A passionate programmer, enthusiastic about Data Science &
+                                    Bioinformatics.
+                                    Becoming one with the data!</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/shazia-t-khan" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/shaziaakhan" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- harshita -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Technical/harshita.jpg" alt=""></div>
+                                <h2>Harshita Indurkar</h2>
+                                <p class="para">A keen learner who is always ready to </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/harshita-indurkar-318365163" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/Harshita0502" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="blur"></div>
+                    </div>
+
                 </div>
 
-                <div class="scrollable">
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/bansal.jpg" alt=""></div>
-                        <h2>Yash Bansal</h2>
-                        <p class="para">Solves problem in creative ways while applying classical strategies to
-                            modern-day projects.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/yashbansal1437/" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/yashbansal1437" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/harsh.jpg" alt=""></div>
-                        <h2>Harshwardhan Mehrotra</h2>
-                        <p class="para">I’ve looked at clouds from both sides now, from up and down, and still somehow…
-                            it’s cloud illusions I recall… I really don’t know clouds at all.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/harshwardhan-mehrotra" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/harsh18262" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/rasal.jpg" alt=""></div>
-                        <h2>Abhishek Rasal</h2>
-                        <p class="para">A budding Computer Science Engineer, learning new skills and has hands-on
-                            experience in various programming languages. Acutely dedicated to my work and fascinated by
-                            technology in general. </p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/abhishekrasal" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/thehackerpanda" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/monil.jpg" alt=""></div>
-                        <h2>Monil Karia</h2>
-                        <p class="para">Just Curious about everything .!</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/monil-karia-393595210/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/Monil-Karia" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/mrunal.jpg" alt=""></div>
-                        <h2>Mrunal Pataskar</h2>
-                        <p class="para">Busy in exploring and taking myself to the cloud nine!</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/mrunal-pataskar-43856517b" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/mrunalpataskar" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/vaibhav.jpg" alt=""></div>
-                        <h2>Vaibhav Ramrakhyani</h2>
-                        <p class="para">I am a curious person and, believe it or not, I really do like to sit back and
-                            listen to people's stories.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/vaibhav-ramrakhyani-088004200" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/VaibhavRamrakhyani" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/yashSingh.jpg" alt=""></div>
-                        <h2>Yash Singh</h2>
-                        <p class="para">Exploring life with a semicolon </p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/yash-singh-409356222" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/Yash5ingh" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/pushkar.jpg" alt=""></div>
-                        <h2>Pushkaraj Suryawanshi </h2>
-                        <p class="para">Innovative, Solution Seeker and a little bit of everything ;)</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/pushkaraj-suryawanshi-604bba228/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/pushkaraj23" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/shazia.jpg" alt=""></div>
-                        <h2>Shazia Khan</h2>
-                        <p class="para">A passionate programmer, enthusiastic about Data Science & Bioinformatics.
-                            Becoming one with the data!</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/shazia-t-khan" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/shaziaakhan" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Technical/harshita.jpg" alt=""></div>
-                        <h2>Harshita Indurkar</h2>
-                        <p class="para">A keen learner who is always ready to </p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/harshita-indurkar-318365163" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/Harshita0502" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-                <div></div>
             </div>
 
             <!-- Management Team -->
-            <h1 class="heading">Management Team</h1>
-            <div class="module">
+            <div id="two">
+                <h1 class="heading">Management Team</h1>
+                <div class="module">
+                    <!-- Shreyas Jadhav -->
+                    <div class="head">
+                        <div class="module-first">
+                            <img src="Photos/Management Team/Shreyas.jpg" alt="Shashwat">
+                            <h2 class="name">Shreyas</h2>
+                            <h2 class="name">Jadhav</h2>
+                            <p>MANAGEMENT LEAD</p>
+                        </div>
 
-                <!-- Shashwat Sharma -->
-                <div class="head">
-                    <div class="module-first">
-                        <img src="Photos/Management Team/Shreyas.jpg" alt="Shashwat">
-                        <h2 class="name">Shreyas</h2>
-                        <h2 class="name">Jadhav</h2>
-                        <p>Management LEAD</p>
-                    </div>
-
-                    <div class="module-second">
-                        <h2></h2>
-                        <div class="para">Facilitation clinic, engagement catalyst | Philomath & a lover of google
-                            sheets | Currently building: Mental wellbeing app for students in Kotlin.</div>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/shreyas-jadhav-1b1449197/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/amoebashrey" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
+                        <div class="module-second">
+                            <h2></h2>
+                            <div class="para">Facilitation clinic, engagement catalyst | Philomath & a lover of google
+                                sheets | Currently building: Mental wellbeing app for students in Kotlin.</div>
+                            <div class="links">
+                                <a href="https://www.linkedin.com/in/shreyas-jadhav-1b1449197/" target="_blank"
+                                    rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                <a href="https://github.com/amoebashrey" target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-github icon"></i></a>
+                                <a href="" target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-instagram icon"></i></a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="scroll">
+                        <div class="blur hide"></div>
+                        <div class="scrollable">
+
+                            <!-- manali -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Management Team/Manali.jpg" alt=""></div>
+                                <h2>Manali Thakar</h2>
+                                <p class="para">Be yourself but always a better self ! </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/manali-thakkar-9605a0210" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- weona -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Management Team/Weona.jpg" alt=""></div>
+                                <h2>Weona Lazarus </h2>
+                                <p class="para">Data is the future and I'm busy in virtualizing it.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/weona-lazarus-98602121a" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/weonalazarus" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- atishee -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Management Team/Atishee.jpg" alt=""></div>
+                                <h2>Atishee Jain</h2>
+                                <p class="para">Passionate for work | Hodophile | Opportunity Seeker | Bighearted Person
+                                </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/atishee-jain-9b302b203" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- gouri -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Management Team/gouri.jpg" alt=""></div>
+                                <h2>Gouri Gangrade</h2>
+                                <p class="para">Optimistic and passionate person। Always looking for new opportunities.
+                                </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/gouri-gangrade-7b825a247" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- ansh -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Management Team/Ansh.jpg" alt=""></div>
+                                <h2>Ansh Shrotriya</h2>
+                                <p class="para">Personality that traits the attitude to speak for itself.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/ansh-shrotriya-285500214/" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/ashrotriya22" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- vednat -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Management Team/Vedant.jpg" alt=""></div>
+                                <h2>Vedant Kankate</h2>
+                                <p class="para">Cloud Enthusiast | GCP | Web Developer | A motivated, Process - Focused
+                                    &
+                                    Ambitious Professional Person !</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/vedant-kankate-b150a91bb" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/Vedant2402" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Akshat -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Management Team/Akshat.jpg" alt=""></div>
+                                <h2>Akshat Vashisht</h2>
+                                <p class="para">Eager to learn new things | Intruiged by the world of lyrical rap | </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/akshat-vashisht-861911233/" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/Akshat-Vashisht" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Shantanu -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Management Team/Shantanu.jpg" alt=""></div>
+                                <h2>Shantanu Chavan</h2>
+                                <p class="para">Love to meet and interact with people | Passionate about tennis | Eager
+                                    to
+                                    prove
+                                    myself </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/shantanu-chavan-24aa17246" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="blur"></div>
+                    </div>
+
                 </div>
-
-                <div class="scrollable">
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Management Team/Manali.jpg" alt=""></div>
-                        <h2>Manali Thakar</h2>
-                        <p class="para">Be yourself but always a better self ! </p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/manali-thakkar-9605a0210" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Management Team/Weona.jpg" alt=""></div>
-                        <h2>Weona Lazarus </h2>
-                        <p class="para">Data is the future and I'm busy in virtualizing it.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/weona-lazarus-98602121a" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/weonalazarus" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Management Team/Atishee.jpg" alt=""></div>
-                        <h2>Atishee Jain</h2>
-                        <p class="para">Passionate for work | Hodophile | Opportunity Seeker | Bighearted Person</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/atishee-jain-9b302b203" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Management Team/gouri.jpg" alt=""></div>
-                        <h2>Gouri Gangrade</h2>
-                        <p class="para">Optimistic and passionate person। Always looking for new opportunities.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/gouri-gangrade-7b825a247" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Management Team/Ansh.jpg" alt=""></div>
-                        <h2>Ansh Shrotriya</h2>
-                        <p class="para">Personality that traits the attitude to speak for itself.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/ansh-shrotriya-285500214/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/ashrotriya22" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Management Team/Vedant.jpg" alt=""></div>
-                        <h2>Vedant Kankate</h2>
-                        <p class="para">Cloud Enthusiast | GCP | Web Developer | A motivated, Process - Focused & Ambitious Professional Person !</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/vedant-kankate-b150a91bb" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/Vedant2402" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Management Team/Akshat.jpg" alt=""></div>
-                        <h2>Akshat Vashisht</h2>
-                        <p class="para">Eager to learn new things | Intruiged by the world of lyrical rap | </p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/akshat-vashisht-861911233/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/Akshat-Vashisht" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Management Team/Shantanu.jpg" alt=""></div>
-                        <h2>Shantanu Chavan</h2>
-                        <p class="para">Love to meet and interact with people | Passionate about tennis | Eager to prove myself </p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/shantanu-chavan-24aa17246" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    
-
-                </div>
-                <div></div>
             </div>
+
 
 
             <!-- Content Team -->
-            <h1 class="heading">Content Team</h1>
-            <div class="module">
+            <div id="three">
+                <h1 class="heading three">Content Team</h1>
+                <div class="module three">
 
-                <!-- Shashwat Sharma -->
-                <div class="head">
-                    <div class="module-first">
-                        <img src="Photos/Content/Manvi.jpg" alt="Shashwat">
-                        <h2 class="name">Manvi</h2>
-                        <h2 class="name">Singh</h2>
-                        <p>Content LEAD</p>
-                    </div>
+                    <!-- Manvi Singh -->
+                    <div class="head">
+                        <div class="module-first">
+                            <img src="Photos/Content/Manvi.jpg" alt="Shashwat">
+                            <h2 class="name">Manvi</h2>
+                            <h2 class="name">Singh</h2>
+                            <p>Content LEAD</p>
+                        </div>
 
-                    <div class="module-second">
-                        <h2></h2>
-                        <div class="para">Technophile, Coding Instructor & a Reader </div>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/manvi-singh-504655202" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/manvi06 " target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
+                        <div class="module-second">
+                            <h2></h2>
+                            <div class="para">Technophile, Coding Instructor & a Reader </div>
+                            <div class="links">
+                                <a href="https://www.linkedin.com/in/manvi-singh-504655202" target="_blank"
+                                    rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                <a href="https://github.com/manvi06 " target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-github icon"></i></a>
+                                <a href="" target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-instagram icon"></i></a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="scroll">
+                        <div class="blur hide"></div>
+                        <div class="scrollable">
+
+                            <!-- Purvika -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Content/Purvika.jpg" alt=""></div>
+                                <h2>Purvika Gore </h2>
+                                <p class="para">Someone who enjoys creative endeavours and is inquisitive about
+                                    everything.
+                                </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/purvika-gore-b0193811b" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/purvikagore" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Riya -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Content/Riya.jpg" alt=""></div>
+                                <h2>Riya Joy</h2>
+                                <p class="para">Web development enthusiast and passionate about the people of
+                                    organisation.
+                                </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/riya-joy-35292b210" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/riyaj47" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Rushikesh -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Content/Rushikesh.jpg" alt=""></div>
+                                <h2>Rushikesh Nale</h2>
+                                <p class="para">Expect the Unexpected • Quora Writer • Tech Enthusiast • In
+                                    Relationship
+                                    with
+                                    Flutter • Love to solve problems • Budding Entrepreneur .</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/rushikesh-nale-777973200/" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/rushikeshnale07" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Shreenidhi -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Content/Shreenidhi.jpg" alt=""></div>
+                                <h2>Shreenidhi Kulkarni </h2>
+                                <p class="para">reader, writer, overthinker.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/shreenidhi-kulkarni-542810222" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="blur"></div>
+                    </div>
+
                 </div>
-
-                <div class="scrollable">
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Content/Purvika.jpg" alt=""></div>
-                        <h2>Purvika Gore </h2>
-                        <p class="para">Someone who enjoys creative endeavours and  is inquisitive about everything.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/purvika-gore-b0193811b" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/purvikagore" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Content/Riya.jpg" alt=""></div>
-                        <h2>Riya Joy</h2>
-                        <p class="para">Web development enthusiast and passionate about the people of organisation.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/riya-joy-35292b210" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/riyaj47" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Content/Rushikesh.jpg" alt=""></div>
-                        <h2>Rushikesh Nale</h2>
-                        <p class="para">Expect the Unexpected • Quora Writer • Tech Enthusiast • In Relationship with Flutter • Love to solve problems • Budding Entrepreneur .</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/rushikesh-nale-777973200/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/rushikeshnale07" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Content/Shreenidhi.jpg" alt=""></div>
-                        <h2>Shreenidhi Kulkarni </h2>
-                        <p class="para">reader, writer, overthinker.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/shreenidhi-kulkarni-542810222" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-                <div></div>
             </div>
-
 
             <!-- Social Media And Outreach Team -->
-            <h1 class="heading">Social Media & Outreach Team</h1>
-            <div class="module">
+            <div id="four">
+                <h1 class="heading four">Social Media & Outreach Team</h1>
+                <div class="module four">
 
-                <!-- Aarya Tupe -->
-                <div class="head">
-                    <div class="module-first">
-                        <img src="Photos/Social/Aarya.jpg" alt="Aarya">
-                        <h2 class="name">Aarya</h2>
-                        <h2 class="name">Tupe</h2>
-                        <p>SOCIAL MEDIA & OUTREACH LEAD</p>
-                    </div>
+                    <!-- Aarya Tupe -->
+                    <div class="head">
+                        <div class="module-first">
+                            <img src="Photos/Social/Aarya.jpg" alt="Aarya">
+                            <h2 class="name">Aarya</h2>
+                            <h2 class="name">Tupe</h2>
+                            <p>SOCIAL MEDIA & OUTREACH LEAD</p>
+                        </div>
 
-                    <div class="module-second">
-                        <h2></h2>
-                        <div class="para">Explore the fields of software and Artificial Intelligence
-                            & enhance my knowledge and skills.</div>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/aaryatupe" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/aaryatupe" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
+                        <div class="module-second">
+                            <h2></h2>
+                            <div class="para">Explore the fields of software and Artificial Intelligence
+                                & enhance my knowledge and skills.</div>
+                            <div class="links">
+                                <a href="https://www.linkedin.com/in/aaryatupe" target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-linkedin icon"></i></a>
+                                <a href="https://github.com/aaryatupe" target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-github icon"></i></a>
+                                <a href="" target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-instagram icon"></i></a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="scroll">
+                        <div class="blur hide"></div>
+                        <div class="scrollable">
+                            <!-- Pratichee -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Pratichee.jpg" alt="Pratichee"></div>
+                                <h2>Pratichee Mishra</h2>
+                                <p class="para">Intelligent Systems and Analytics Enthusiast and Passionate for UI
+                                    UX
+                                    Designing
+                                </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/pratichee-mishra-94050321a/" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/Pratichee02" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Aditi -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Aditi.jpg" alt="aditi"></div>
+                                <h2>Aditi Bhattacharya</h2>
+                                <p class="para">Living life to the fullest kyuki #zindaginamilegidoobara
+                                    Technophile</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/aditi-bhattacharya-00895a248" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://www.instagram.com/ronyyy._03/" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Sudipa -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Sudipa.jpg" alt="sudipa"></div>
+                                <h2>Sudipa Ray</h2>
+                                <p class="para">Exploring Data Science.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/sudipa-ray-3575981bb" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/SudipaR" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Raksha -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Raksha.jpg" alt="raksha"></div>
+                                <h2>Raksha Malhotra</h2>
+                                <p class="para">Love to meet new people,adventurous and want to learn and explore
+                                    new
+                                    things.
+                                </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/raksha-malhotra-4a25b424a" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Tanvee -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Tanvee.jpg" alt="tanvee"></div>
+                                <h2>Tanvi Dhamdhere</h2>
+                                <p class="para">Demigod.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/tanvi-dhamdhere-09ba8a21b" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/tanvee07" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Parth -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Parth.jpg" alt="parth"></div>
+                                <h2>Parth Sakpal</h2>
+                                <p class="para">Someone who wants to make a change .</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/parth-sakpal-52b755233" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com//parthsakpal109" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Ayush -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Ayush.jpg" alt="ayush"></div>
+                                <h2>Ayush Kota</h2>
+                                <p class="para">Data is the future and I'm busy in virtualizing it.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/ayush-kota-b26618237" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Sarthak -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Sarthak.jpg" alt="Sarthak"></div>
+                                <h2>Sarthak Kulkarni </h2>
+                                <p class="para">Have interest in photo and video editing and will contribute in a
+                                    positive
+                                    way .
+                                </p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/sarthak-kulkarni-b45381242" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Kushal -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Kushal.jpg" alt="kushal"></div>
+                                <h2>Kushal Barikar</h2>
+                                <p class="para">Will give my best , and will contribute as much as possible.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/kushal-barikar-118964241" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/iamkushal2003" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Shrenuj -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Social/Shrenuj.jpg" alt="shrenuj"></div>
+                                <h2>Shrenuj Karath </h2>
+                                <p class="para">Like to give my 100% problem solver.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/shrenuj-karath-386066240" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="blur"></div>
+                    </div>
+
                 </div>
-
-                <div class="scrollable">
-
-                    <!-- Pratichee -->
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Pratichee.jpg" alt="Pratichee"></div>
-                        <h2>Pratichee Mishra</h2>
-                        <p class="para">Intelligent Systems and Analytics Enthusiast and Passionate for UI UX Designing</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/pratichee-mishra-94050321a/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/Pratichee02" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Aditi -->
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Aditi.jpg" alt="aditi"></div>
-                        <h2>Aditi Bhattacharya</h2>
-                        <p class="para">Living life to the fullest kyuki #zindaginamilegidoobara
-                            Technophile</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/aditi-bhattacharya-00895a248" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://www.instagram.com/ronyyy._03/" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Sudipa -->
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Sudipa.jpg" alt="sudipa"></div>
-                        <h2>Sudipa Ray</h2>
-                        <p class="para">Exploring Data Science.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/sudipa-ray-3575981bb" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/SudipaR" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Raksha.jpg" alt="sudipa"></div>
-                        <h2>Raksha Malhotra</h2>
-                        <p class="para">Love to meet new people,adventurous and want to learn and explore new things.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/raksha-malhotra-4a25b424a" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Tanvee.jpg" alt="sudipa"></div>
-                        <h2>Tanvi Dhamdhere</h2>
-                        <p class="para">Demigod.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/tanvi-dhamdhere-09ba8a21b" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/tanvee07" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Parth.jpg" alt="sudipa"></div>
-                        <h2>Parth Sakpal</h2>
-                        <p class="para">Someone who wants to make a change .</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/parth-sakpal-52b755233" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com//parthsakpal109" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Ayush.jpg" alt="sudipa"></div>
-                        <h2>Ayush Kota</h2>
-                        <p class="para">Data is the future and I'm busy in virtualizing it.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/ayush-kota-b26618237" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Sarthak.jpg" alt="sudipa"></div>
-                        <h2>Sarthak Kulkarni </h2>
-                        <p class="para">Have interest in photo and video editing and will contribute in a positive way .</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/sarthak-kulkarni-b45381242" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Kushal.jpg" alt="sudipa"></div>
-                        <h2>Kushal Barikar</h2>
-                        <p class="para">Will give my best , and will contribute as much as possible.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/kushal-barikar-118964241" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/iamkushal2003" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Social/Shrenuj.jpg" alt="sudipa"></div>
-                        <h2>Shrenuj Karath </h2>
-                        <p class="para">Like to give my 100%  problem solver.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/shrenuj-karath-386066240" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-                    
-
-                </div>
-                <div></div>
             </div>
 
-
             <!-- Design Team -->
-            <h1 class="heading">Design Team</h1>
-            <div class="module">
+            <div id="five">
+                <h1 class="heading five">Design Team</h1>
+                <div class="module five">
 
-                <!-- Shashwat Sharma -->
-                <div class="head">
-                    <div class="module-first">
-                        <img src="Photos/Design/Shete.jpg" alt="Shashwat">
-                        <h2 class="name">Vaishnavi</h2>
-                        <h2 class="name">Shete</h2>
-                        <p>Design LEAD</p>
-                    </div>
+                    <!-- Vasihnavi Shete -->
+                    <div class="head">
+                        <div class="module-first">
+                            <img src="Photos/Design/Shete.jpg" alt="Shashwat">
+                            <h2 class="name">Vaishnavi</h2>
+                            <h2 class="name">Shete</h2>
+                            <p>Design LEAD</p>
+                        </div>
 
-                    <div class="module-second">
-                        <h2></h2>
-                        <div class="para">User Researcher | Systems Thinker | Illustrator | Crafting design-specific pieces with reflective design processes</div>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/vaishnavi-s-488b8a1b3/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="3" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
+                        <div class="module-second">
+                            <h2></h2>
+                            <div class="para">User Researcher | Systems Thinker | Illustrator | Crafting design-specific
+                                pieces with reflective design processes</div>
+                            <div class="links">
+                                <a href="https://www.linkedin.com/in/vaishnavi-s-488b8a1b3/" target="_blank"
+                                    rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                <a href="3" target="_blank" rel="noopener"><i class="fa-brands fa-github icon"></i></a>
+                                <a href="" target="_blank" rel="noopener"><i
+                                        class="fa-brands fa-instagram icon"></i></a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="scroll">
+                        <div class="blur hide"></div>
+                        <div class="scrollable">
+
+                            <!-- Shreya -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Design/ghosh.jpg" alt=""></div>
+                                <h2>Shreya Ghosh</h2>
+                                <p class="para">A talented individual who is passionate about solving problems with
+                                    the help
+                                    of
+                                    technology .</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/shreya-ghosh-8007881b1" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/ghosh-shreya" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Kasheena -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Design/kasheena.jpg" alt=""></div>
+                                <h2>Kasheena Mulla</h2>
+                                <p class="para">Passionate Developer | Enthusiastic Learner .</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/kasheena-mulla-311905203/" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/kasheena" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Garvin -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Design/garvin.jpg" alt=""></div>
+                                <h2>Garvin Chanderia</h2>
+                                <p class="para">Data is the future and I'm busy in virtualizing it.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/garvinchanderia " target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/garvinchanderia" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Vilakshan -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Design/enigma.jpg" alt=""></div>
+                                <h2>Vilakshan</h2>
+                                <p class="para">I'ts all about Learning!</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/valak-visharad/" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="https://github.com/Valak-visharad" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Om Vhatkar -->
+                            <div class="card2">
+                                <div class="photo2"><img src="Photos/Design/om.jpg" alt=""></div>
+                                <h2>Om Vhatkar</h2>
+                                <p class="para">Like to express myself through artworks.</p>
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/om-vhatkar-a63a67257/" target="_blank"
+                                        rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-github icon"></i></a>
+                                    <a href="" target="_blank" rel="noopener"><i
+                                            class="fa-brands fa-instagram icon"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="blur"></div>
+                    </div>
+
                 </div>
-
-                <div class="scrollable">
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Design/ghosh.jpg" alt=""></div>
-                        <h2>Shreya Ghosh</h2>
-                        <p class="para">A talented individual who is passionate about solving problems with the help of technology .</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/shreya-ghosh-8007881b1" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/ghosh-shreya" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Design/kasheena.jpg" alt=""></div>
-                        <h2>Kasheena Mulla</h2>
-                        <p class="para">Passionate Developer | Enthusiastic Learner .</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/kasheena-mulla-311905203/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/kasheena" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Design/garvin.jpg" alt=""></div>
-                        <h2>Garvin Chanderia</h2>
-                        <p class="para">Data is the future and I'm busy in virtualizing it.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/garvinchanderia " target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/garvinchanderia" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Design/enigma.jpg" alt=""></div>
-                        <h2>Vilakshan</h2>
-                        <p class="para">Its all Learning!</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/valak-visharad/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="https://github.com/Valak-visharad" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <div class="photo2"><img src="Photos/Design/om.jpg" alt=""></div>
-                        <h2>Om Vhatkar</h2>
-                        <p class="para">Like to express myself through artworks.</p>
-                        <div class="links">
-                            <a href="https://www.linkedin.com/in/om-vhatkar-a63a67257/" target="_blank"
-                                rel="noopener"><i class="fa-brands fa-linkedin icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-github icon"></i></a>
-                            <a href="" target="_blank" rel="noopener"><i
-                                    class="fa-brands fa-instagram icon"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-                <div></div>
             </div>
 
         </div>
+
     </section>
     <footer>
         <div class="footer-first">
@@ -907,11 +1025,65 @@
 
     <script>
         function showHide() {
-            var toggleButton = document.getElementById('nav-second');
+            var toggleButton = document.getElementById('nav-second')
             if (toggleButton.style.display === "none") {
-                toggleButton.style.display = "flex";
+                toggleButton.style.display = "flex"
             } else {
-                toggleButton.style.display = "none";
+                toggleButton.style.display = "none"
+            }
+        }
+
+        function showMembers(a) {
+            var first = document.getElementById('one')
+            var second = document.getElementById('two')
+            var third = document.getElementById('three')
+            var fourth = document.getElementById('four')
+            var fifth = document.getElementById('five')
+            if (a == 1) {
+                second.style.display = 'none'
+                third.style.display = 'none'
+                fourth.style.display = 'none'
+                fifth.style.display = 'none'
+
+                if (first.style.display == 'none')
+                    first.style.display = 'flex'
+                else first.style.display = 'none'
+            } else if (a == 2) {
+                first.style.display = 'none'
+                third.style.display = 'none'
+                fourth.style.display = 'none'
+                fifth.style.display = 'none'
+
+                if (second.style.display == 'none')
+                    second.style.display = 'flex'
+                else second.style.display = 'none'
+            } else if (a == 3) {
+                second.style.display = 'none'
+                first.style.display = 'none'
+                fourth.style.display = 'none'
+                fifth.style.display = 'none'
+
+                if (third.style.display == 'none')
+                    third.style.display = 'flex'
+                else third.style.display = 'none'
+            } else if (a == 4) {
+                second.style.display = 'none'
+                third.style.display = 'none'
+                first.style.display = 'none'
+                fifth.style.display = 'none'
+
+                if (fourth.style.display == 'none')
+                    fourth.style.display = 'flex'
+                else fourth.style.display = 'none'
+            } else {
+                second.style.display = 'none'
+                third.style.display = 'none'
+                fourth.style.display = 'none'
+                first.style.display = 'none'
+
+                if (fifth.style.display == 'none')
+                    fifth.style.display = 'flex'
+                else fifth.style.display = 'none'
             }
         }
     </script>

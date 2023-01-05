@@ -193,7 +193,7 @@ nav .gdsc-logo {
     flex-direction: column;
     justify-content: flex-start;
     background-color: #F4F4F4;
-    height: 95vh;
+    height: 50vw;
 }
 
 .heading {
@@ -299,7 +299,7 @@ nav .gdsc-logo {
 
 .tech {
     width: 100%;
-    height: 55vh;
+    height: 43vw;
     background-color: #F5F5F5;
     margin: 1em 0;
     display: flex;
@@ -491,6 +491,7 @@ i {
     background: linear-gradient(180deg, #D7D7D7 0%, #ECEFF1 27.29%);
     display: flex;
     flex-direction: column;
+    padding-top: 2vw;
 }
 
 .team-module .heading {
@@ -578,8 +579,28 @@ i {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 2vw;
+    padding-left: 2vw;
+    margin-left: 1vw;
     overflow-x: scroll;
+}
+
+.scroll {
+    height: 35vw;
+    width: 51vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.hide {
+    display: none;
+}
+
+.blur {
+    height: 35vw;
+    width: 3vw;
+    background-color: #ECEFF1;
+    box-shadow: 0 0 20px 22px #ECEFF1;
+    z-index: 2;
 }
 
 .card2 {
@@ -598,13 +619,13 @@ i {
 }
 
 .photo2 {
-    /* margin-top: 1.3vw; */
     position: relative;
     width: 12.4vw;
     height: 12.4vw;
     border-radius: 50%;
     border: 9px solid #D9D9D9;
     box-shadow: 0px 11px 19px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
 .photo2 img {
@@ -631,6 +652,12 @@ i {
 }
 
 .para::-webkit-scrollbar {
+    display: none;
+}
+
+#one, #two, #three, #four, #five {
+    display: flex;
+    flex-direction: column;
     display: none;
 }
 
@@ -697,6 +724,11 @@ footer {
     display: none;
 }
 
+.team-icons button {
+    border: none;
+    background-color: #F4F4F4;
+}
+
 @media (max-width : 600px) {
     .nav-second {
         display: none;
@@ -733,7 +765,7 @@ footer {
     nav a {
         width: 100%;
         font-size: 3vw;
-        padding: 2vw;
+        padding: 4vw;
     }
     nav a:hover {
         transform: translateY(-1px);
@@ -785,7 +817,7 @@ footer {
 
     .intro {
         justify-content: space-evenly;
-        height: 150vh;
+        height: 350vw;
     }
     .about-us {
         flex-direction: column;
@@ -810,7 +842,8 @@ footer {
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 60vh;
+        height: 120vw;
+        margin: 2em 0;
     }
     .image {
         width: 100%;
@@ -846,9 +879,15 @@ footer {
         margin-top: 4vw;
         scale: 4;
     }
+    .theteam {
+        padding-top: 10vw;
+    }
+    .mg-bt-0 {
+        margin-top: 10vw;
+    }
     .card {
         width: 74.8vw;
-        height: 108.8vw;
+        height: 110vw;
         border-radius: 6.8vw;
         margin-top: 8vw;
     }
@@ -861,7 +900,7 @@ footer {
         width: 44.2vw;
         height: 44.2vw;
         border: 6px solid #D9D9D9;
-        transform: tranlateY(6vw);
+        margin-top: 2.5vw;
     }
     .photo img {
         width: 44.2vw;
@@ -895,10 +934,12 @@ footer {
         flex-wrap: wrap;
         width: 70vw;
         justify-content: center;
+        margin-bottom: 10vw;
     }
     .icons {
         width: 23vw;
         justify-content: flex-start;
+        padding-bottom: 2.5vw;
     }
     #teamname {
         font-size: 2vw;
@@ -906,5 +947,94 @@ footer {
     .icons img {
         width: 10vw;
         height: 10vw;
+    }
+    .team-module {
+        padding-top: 10vw;
+    }
+    .module {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .head {
+        height: 53vw;
+        width: 73.4vw;
+        margin: 5vw 0 0 0;
+        border-radius: 4vw;
+    }
+    .module-first {
+        height: 53vw;
+        width: 35.36vw;
+        border-radius: 4vw 0 0 4vw;
+    }
+    .module-first img {
+        width: 22.1vw;
+        height: 22.1vw;
+        border: 5px solid #d9d9d9;
+        margin: 4.5vw;
+    }
+    .module-second {
+        border-radius: 0 4vw 4vw 0;
+        width: 44.2vw;
+        text-align: center;
+    }
+    .module-second .para {
+        font-size: 2.5vw;
+        width: 31vw;
+    }
+    .name {
+        font-size: 3.4vw;
+    }
+    .module-first p {
+        font-size: 2.5vw;
+    }
+    .theteam .icon {
+        font-size: 3vw;
+    }
+    .module-second .icon {
+        margin: 1vw;
+    }
+    .scrollable {
+        margin: 5vw 0;
+        width: 90vw;
+        height: 61vw
+    }
+    .scroll {
+        width: 90vw;
+        height: 61vw;
+        align-items: center;
+        margin-top: 5vw;
+    }
+    .card2 {
+        min-width: 34vw;
+        height: 51vw;
+    }
+    .photo2 {
+        width: 21vw;
+        height: 21vw;
+        border: 5px solid #d9d9d9;
+    }
+    .photo2 img {
+        width: 21vw;
+        height: 21vw;
+    }
+    .card2 h2 {
+        font-size: 2.21vw;
+    }
+    .card2 p {
+        width: 23.5vw;
+        height: 8vw;
+        font-size: 1.7vw;
+    }
+    .hide {
+        display: inline;
+    }
+    .blur {
+        height: 55vw;
+    }
+    .card2:nth-child(1) {
+        margin-left: 5vw;
+    }
+    .card2:last-child {
+        margin-right: 5vw;
     }
 }
